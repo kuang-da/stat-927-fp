@@ -1,0 +1,73 @@
+%---------Definitions----------
+\newcommand{\Fig}[1]{Figure~\ref{#1}}
+\newcommand{\Sec}[1]{Section~\ref{#1}}
+\newcommand{\Tab}[1]{Table~\ref{#1}}
+\newcommand{\Tabs}[2]{Tables~\ref{#1}--\ref{#2}}
+\newcommand{\Eqn}[1]{Eq.~(\ref{#1})}
+\newcommand{\Eqs}[2]{Eqs.~(\ref{#1}-\ref{#2})}
+\newcommand{\Lem}[1]{Lemma~\ref{#1}}
+\newcommand{\Thm}[1]{Theorem~\ref{#1}}
+\newcommand{\Cor}[1]{Corollary~\ref{#1}}
+\newcommand{\App}[1]{Appendix~\ref{#1}}
+\newcommand{\Def}[1]{Definition~\ref{#1}}
+%
+\renewcommand{\>}{{\rightarrow}}
+\renewcommand{\hat}{\widehat}
+\renewcommand{\tilde}{\widetilde}
+\newcommand{\half}{\frac{1}{2}}
+%
+\newcommand{\R}{{\mathbb R}}
+\newcommand{\Z}{{\mathbb Z}}
+\newcommand{\N}{{\mathbb N}}
+\renewcommand{\P}{{\mathbf P}}
+\newcommand{\E}{{\mathbf E}}
+\newcommand{\Var}{{\mathbf{Var}}}
+\newcommand{\I}{{\mathbf I}}
+\newcommand{\1}{{\mathbf 1}}
+\newcommand{\0}{{\mathbf 0}}
+%
+\newcommand{\sign}{\textup{\textrm{sign}}}
+\newcommand{\er}{\textup{\textrm{er}}}
+%\newcommand{\abs}{\textup{\textrm{abs}}}
+\newcommand{\sq}{\textup{\textrm{sq}}}
+\newcommand{\zo}{\textup{\textrm{0-1}}}
+%
+\renewcommand{\H}{{\mathcal H}}
+\newcommand{\F}{{\mathcal F}}
+\newcommand{\X}{{\mathcal X}}
+\newcommand{\Y}{{\mathcal Y}}
+\newcommand{\bX}{{\mathbf X}}
+%
+\newcommand{\p}{{\mathbf p}}
+\newcommand{\q}{{\mathbf q}}
+\renewcommand{\r}{{\mathbf r}}
+\newcommand{\x}{{\mathbf x}}
+\newcommand{\y}{{\mathbf y}}
+\renewcommand{\u}{{\mathbf u}}
+\newcommand{\w}{{\mathbf w}}
+%
+\newcommand{\bloss}{{\boldsymbol \ell}}
+\newcommand{\balpha}{{\boldsymbol \alpha}}
+\newcommand{\bxi}{{\boldsymbol \xi}}
+\newcommand{\bpsi}{{\boldsymbol \psi}}
+\newcommand{\btau}{{\boldsymbol \tau}}
+
+%--------- Special notation----------
+% Tilde below letter
+% https://tex.stackexchange.com/a/388774/206085
+% $\vec v = \vec{e}_x + 2 \vec{e}_y + 3\vec{e}_z $
+\renewcommand{\vec}[1]{%
+  \smash{\ensurestackMath{\stackengine{1pt}{#1}{\scriptscriptstyle\sim}{U}{c}{F}{F}{S}}}
+  \vphantom{#1}
+}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\newcommand{\MLE}{{\text{MLE}}}
+
+\newcommand*\diff{\mathop{}\!\mathrm{d}}
+\newcommand*\Diff[1]{\mathop{}\!\mathrm{d^#1}}
+
+	
+\newcommand{\indep}{\perp \!\!\! \perp}

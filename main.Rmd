@@ -1,0 +1,51 @@
+---
+title: "STAT 927 Final Project"
+author: "Da Kuang"
+date: "`r format(Sys.time(), '%B %d %Y')`"
+header-includes: 
+  - \usepackage{babel}
+  - \usepackage{float}
+  - \usepackage{textcomp}
+  - \usepackage{amsmath,amsfonts,amssymb}
+  - \usepackage{amsthm}
+  - \usepackage{mathtools}
+  - \input{def.tex}
+output:
+  pdf_document: default
+fontsize: 12pt
+---
+
+# Introduction
+
+# Method
+
+## Single-cell RNA-seq technology
+
+## Zero-inflated model
+
+## Hamiltonnian Monte Carlo
+
+# Result
+
+## Numercal Experiment
+
+### Experimenntal setup
+
+### Sampled result
+
+### Model evalution
+
+## Case study
+
+### Data analysis
+
+### Evaluation
+
+# Discussion
+
+```{r message=FALSE}
+library(tidyverse)
+library(latex2exp)
+knitr::opts_chunk$set(out.width="300px", dpi=120)
+```
+
