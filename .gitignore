@@ -1,3 +1,5 @@
+.conda
+rstanrm.R
 .local
 # History files
 .Rhistory
